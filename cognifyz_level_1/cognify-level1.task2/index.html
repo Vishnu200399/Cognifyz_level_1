@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-in-One Page</title>
+    <style>
+    *{
+    font-family: 'gilroy'; 
+    } 
+    body{
+    background-image: url('https://community.nasscom.in/sites/default/files/styles/960_x_600/public/media/images/intern960.png?itok=cSF4W4ea');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh; /* Adjust this based on your layout needs */
+    } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the All-in-One Page</h1>
+    </header>
+   
+    <br><br>
+    <main>
+        <section class="color-change">
+            <h2>Button Color Change</h2>
+            <button id="color-button">Click me to change color</button>
+        </section>
+
+        <section class="greeting">
+            <h2>Greeting Alert</h2>
+            <button id="greeting-button">Get Greeting</button>
+        </section>
+
+        <section class="calculator">
+            <h2>Basic Calculator</h2>
+            <input type="number" id="num1" placeholder="Enter number 1">
+            <input type="number" id="num2" placeholder="Enter number 2">
+            <button id="add-button">Add</button>
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
